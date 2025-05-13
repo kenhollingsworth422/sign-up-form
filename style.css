@@ -1,0 +1,95 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(fonts/Norse-Bold.otf);
+}
+
+.container {
+    display:flex;
+}
+
+.background {
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    width:40vw;
+}
+
+.form-body {
+    display:flex;
+    flex:1;
+    height:100vh;
+}
+
+.background,
+.form-body {
+    border: solid black;
+}
+
+.plant {
+    width:100%; 
+    height:100vh;
+    position: absolute;
+    z-index: -1;
+}
+
+.picture-heading {
+    display:flex;
+    z-index: 1;
+    opacity: .8;
+    background-color: black;
+    width:100%;
+    height:9vh;
+    justify-content: center;
+    position: absolute;
+    top:40%;
+    gap: 8px;
+}
+
+.odin {
+    height:8vh;
+    display:flex;
+    opacity: 1;
+    align-self:center;
+}
+
+.odin-text {
+    font-family: norse-bold, sans-serif;
+    color:white;
+    opacity: 1;
+    display: flex;
+    align-self: center;
+    font-size: 3rem;
+}
+
+.picture-credit {
+    position:absolute;
+    bottom:0%;
+    align-self: center;
+    color:white;
+    z-index: 1;
+    font-size: 0.8rem;
+}
+
+.form-format {
+    display: flex;
+    flex-direction: column;
+}
+    
+.form-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-class,
+.hero,
+.call {
+    display:flex;
+    flex: 1;
+    justify-content: center;
+    align-items:center;
+    border:solid black;
+}
+
+.hero {
+    flex-direction: column;
+}
