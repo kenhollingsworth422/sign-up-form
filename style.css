@@ -78,6 +78,7 @@
 .form-body {
     display: flex;
     flex-direction: column;
+
 }
 
 .form-class,
@@ -92,4 +93,17 @@
 
 .hero {
     flex-direction: column;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-entry,
+.contact-entry,
+.password-entry {
+    display: flex;
+    gap:8px;
+    width:100%
 }
